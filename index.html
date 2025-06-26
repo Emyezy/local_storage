@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Favorite Quotes App</title>
+  <style>
+    body {
+      font-family: Arial;
+      padding: 20px;
+      max-width: 600px;
+      margin: auto;
+    }
+    input, button {
+      padding: 8px;
+      margin: 5px 0;
+      width: 100%;
+    }
+    .quote-card {
+      background: #f2f2f2;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+    }
+    .remove-btn {
+      background: red;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      cursor: pointer;
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>📚 Favorite Quotes</h2>
+
+  <input type="text" id="quote" placeholder="Enter your quote" />
+  <input type="text" id="author" placeholder="Enter the author's name" />
+  <button id="addQuote">Add Quote</button>
+
+  <h3>📖 Stored Quotes:</h3>
+  <div id="quoteList"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
